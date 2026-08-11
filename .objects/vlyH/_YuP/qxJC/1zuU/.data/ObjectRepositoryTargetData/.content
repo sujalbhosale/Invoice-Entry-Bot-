@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PvyyY3nbWES4qM9w2POBGg" Reference="gira0i1cQEepAnWXVaRU0g/1zuUbkyRtEu9Rz6U8J_j1w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6a761177-ff8c-83e8-8960-d31f989da403" DesignTimeRectangle="802, 569, 32, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-focus-indicator' parentid='xap-skip-link-target' tag='SPAN' /&gt;" Guid="8737a05a-9e2c-4558-a57d-75ec9b23b753" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVFhH7dZBCoAgEIXhTlKdKKE6UWIH8GS6FGzlQSbGpUaURBa8xQ+DQ/JBi2rarqeaNenB2wEAwL8Bi5Sk1Jqd36kYMAhBxtgYz+n+asWAcZrJWhvjOd1fDQAAvg3QWpNzjrz3B20UQojxnO99fJbvSO/9D+CsV17BWQAAUB1Q/XPMVf0heSoAAABgBzkWDMsFPqlbAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1398, 573, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;speech-dictation-mic-button&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="034a8c16-decf-4034-9d75-5eecc4b71bab" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5a3e71f843274df7aafe300e95b45b4a.jpg" xmlns="">0bZx0KPE_J0CdlALbj4mnFA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

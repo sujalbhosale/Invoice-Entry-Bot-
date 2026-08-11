@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z7688PloZUutD121NRVbMg" Reference="gira0i1cQEepAnWXVaRU0g/IWRxZMlj6EGL3gYp5LP3TQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="gemini.google.com/app/d2468974b7c78ba5" DesignTimeRectangle="842, 947, 388, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="044639c7-a23a-4900-873d-bde3738198af" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Request - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8bbac039cf80deb3a7e2162a65dbd845.jpg" xmlns="">0B36b7GC6z0243zqLCkyk9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

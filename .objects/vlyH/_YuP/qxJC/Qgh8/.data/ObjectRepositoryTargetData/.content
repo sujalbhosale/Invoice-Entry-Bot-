@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="d-gML4sgS0mFdbKi1fdXXw" Reference="gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="gemini.google.com/app" DesignTimeRectangle="1398, 656, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="738cecd9-f826-4541-82a7-3ea23ffd3269" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b758c71b7d1375c8a5a3f921b3a2238c.jpg" xmlns="">0NyvNMJYuckSAHqp418cy3Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

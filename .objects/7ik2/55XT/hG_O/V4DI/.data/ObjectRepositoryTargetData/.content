@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ZAEjXA5y4k66BSLBPK7BlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" DesignTimeRectangle="366, 405, 711, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-v-1-322' tag='INPUT' type='number' class='v-field__input' placeholder='Enter Amount' aaname='Amount' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="95c9fbe3-01c6-467e-ae66-174583f90751" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="382, 396, 42, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Amount' type='' tag='LABEL' class='v-label v-field-label v-field-label--floating' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Amount' /&gt;" Guid="9ec5b6d5-8f91-4a37-b5b4-6a3979120029" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="44afde901a795bfa6bfd64208dfc9e66.jpg" xmlns="">0_pNz1RXU1EGoDrmCVifRmQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

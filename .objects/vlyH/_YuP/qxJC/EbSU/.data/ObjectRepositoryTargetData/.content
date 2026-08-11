@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="p47SPcYwGEOkMmVsgpBBUA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="gemini.google.com/app/068d210115f06463" CVScreenId="9d4ee12e-09bd-4818-bb3f-8027847d3e60" CvType="AnyWordGroup" DesignTimeRectangle="758, 393, 708, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;chat-window-content&amp;gt;div&amp;gt;infinite-scroller&amp;gt;div&amp;gt;model-response&amp;gt;div&amp;gt;response-container&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;structured-content-container&amp;gt;div&amp;gt;message-content&amp;gt;div&amp;gt;p' idx='4' tag='P' /&gt;" Guid="8e8e9bda-c037-4c47-8253-705ebd2960e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="986, 221, 452, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='user-query-content-3' tag='P' type='' class='query-text-line ng-star-inserted' aaname=' Give only grand total, no symbol, no code just number in form of integer nothing else ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Give only grand total, no symbol, no code just number in form of integer nothing else' /&gt;" Guid="45a7fba0-a75a-4751-9457-3cc42cc97872" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a779d3bd4fc8793c816496aa5adbcbaa.jpg" xmlns="">0EztBk1OgkESXfZOr9_FDOw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

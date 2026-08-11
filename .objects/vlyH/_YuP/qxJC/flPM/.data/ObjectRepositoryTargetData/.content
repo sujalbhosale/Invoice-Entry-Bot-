@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PgohVM_GPkKt99kHjz3bJg" Reference="gira0i1cQEepAnWXVaRU0g/flPMu4IpnUKvSsl2If70KQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" DesignTimeRectangle="852, 483, 20, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;chat-window-content&amp;gt;div&amp;gt;infinite-scroller&amp;gt;div&amp;gt;model-response&amp;gt;div&amp;gt;response-container&amp;gt;div&amp;gt;div&amp;gt;message-actions&amp;gt;div&amp;gt;div&amp;gt;copy-button&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' tag='MAT-ICON' /&gt;" Guid="9672bd82-8bc3-42a4-af43-ec92fc530f39" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhP5ZQ9CoNAEIVzA3sP4AVsbcU7WXgAbRVBEEHFRtRCsPanFMTSP/AoE2YhwewmS4J2KR7Ic98Ho/vmJggCXKkbbZwVFyjLMkRRBHVdM3JdFyRJYjJcYJqmsG0bNE3zAmvbFvZ9hzAMmQwXiME8zxkfVRQFeU/7DFAURdB1HQzDgL7vPwLR/wpo2zYZJ8syGMfxPBAP4Tiapl0HxMN/CFQU5Zq/fLx7+Oz7PhNCfX0Pj8CyLGEYBvA8j1TtoTiOYVkWSJLkN6CqqlBVFczzDOu6PjVNE4Fh1+n8WyCOQ/uoIAjANE3G5wKx8NgUBB8XQtd1xLcsi4FwgbiS8DvR6wrlOA7pOp3hAs/qcuAdN2uyQJV/rnIAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="986, 341, 452, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='query-text-line ng-star-inserted' aaname=' Only tell name of company who send the invoice nothing else ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Only tell name of company who send the invoice nothing else' /&gt;" Guid="44350ec8-709c-4960-a93c-42c14bb4c0ba" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d6195e625279475bc11d9f8122d2c441.jpg" xmlns="">0VIh80TdDJUup2-YxWPAiZw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "MAT-ICON",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "Qgh8J4IHZUa9oehcH3Puug",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/qxJCkhII9Eu9Vxk9rsmYPg",
+  "Created": "2026-08-07T17:39:44.41204Z",
+  "Updated": "2026-08-07T17:39:44.41204Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

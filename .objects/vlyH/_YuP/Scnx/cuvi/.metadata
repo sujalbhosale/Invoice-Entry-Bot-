@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Only tell name of compa…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cuviO1NVSEmTcTHNYf22kA",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/cuviO1NVSEmTcTHNYf22kA",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/ScnxCkqoO0SjlrIaiJynWA",
+  "Created": "2026-08-07T16:50:59.6122833Z",
+  "Updated": "2026-08-07T16:50:59.6122833Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

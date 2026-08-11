@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Purchase Date",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "BC30IRPgO02JtkBRLy5nlw",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/BC30IRPgO02JtkBRLy5nlw",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w",
+  "Created": "2026-08-10T15:08:47.637436Z",
+  "Updated": "2026-08-10T15:08:47.637436Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

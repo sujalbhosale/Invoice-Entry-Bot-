@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="k-mYYKDPLkKhujNL7VkrbQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" DesignTimeRectangle="849, 493, 72, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Select Seller' class='v-btn__content' parentid='__nuxt' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Select Seller' /&gt;" Guid="c675d825-13ca-431d-b8ef-a39eaf0a4c59" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="835, 484, 100, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Select Seller' tag='BUTTON' type='button' class='v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-small v-btn--variant-elevated mr-3 ls-005rem fs-13px' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Seller' /&gt;" Guid="ac96b8b7-a2f7-47d0-a535-7796fefa4fda" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c994aa4e483b0a8ce16d853ba5150a95.jpg" xmlns="">0Zp6PlfdU-0OApmZM0XzuUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

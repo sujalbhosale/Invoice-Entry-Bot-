@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0Sb00UNiTk2rCT50BTXvHQ" Reference="gira0i1cQEepAnWXVaRU0g/jdPUfa6AgEiBwF2bcTI0IQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" DesignTimeRectangle="580, 411, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;i' tag='I' /&gt;" Guid="8f1a86f7-8ba2-4cee-8be4-40ff8d29cb15" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a6d6b88f9f6de2ad51dc7f91c76a2c98.jpg" xmlns="">0R0lRrZFMg0u4fOAQKIWGQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

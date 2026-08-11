@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Give only grand total …'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "0ugIvwrrSU6XQ7vt83qtOw",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/0ugIvwrrSU6XQ7vt83qtOw",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/IZA3kxN36ECUlUvOZ1D9OQ",
+  "Created": "2026-08-08T02:32:00.4382584Z",
+  "Updated": "2026-08-08T02:32:00.4382584Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

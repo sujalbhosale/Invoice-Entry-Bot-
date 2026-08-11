@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="zNJIhXYxX0eUevj5dXKVyw" Reference="gira0i1cQEepAnWXVaRU0g/BC30IRPgO02JtkBRLy5nlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" DesignTimeRectangle="1125, 331, 710, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-v-0-116' tag='INPUT' type='date' class='v-field__input' aaname='Purchase Date' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="07d8e332-c041-4f37-958a-9aee4bffcca3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="1141, 322, 77, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Purchase Date' type='' tag='LABEL' class='v-label v-field-label v-field-label--floating' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Purchase Date' /&gt;" Guid="acf702d9-10ef-477b-94f7-86f2a4fb997a" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d46b03499f6231c864681b21264711fb.jpg" xmlns="">0j3NwDS5RVEe7CjxpOf_1Fw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

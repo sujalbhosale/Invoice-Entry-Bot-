@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Purchase Invoice Number",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "x4vmMmVx10-kn9u5h_wKJg",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/x4vmMmVx10-kn9u5h_wKJg",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w",
+  "Created": "2026-08-10T15:08:02.5261974Z",
+  "Updated": "2026-08-10T15:08:02.5261974Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

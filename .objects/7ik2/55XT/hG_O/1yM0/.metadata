@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Fatemi Industrial Suppl…",
+  "Type": "Element",
+  "Id": "1yM06M7EzEiIMBLjouuHfQ",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/1yM06M7EzEiIMBLjouuHfQ",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w",
+  "Created": "2026-08-10T15:13:17.7976253Z",
+  "Updated": "2026-08-10T15:13:17.7976253Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

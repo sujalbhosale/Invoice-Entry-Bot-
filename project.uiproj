@@ -1,0 +1,6 @@
+{
+  "Name": "Invoice_Entry_bot",
+  "ProjectType": "Process",
+  "Description": "Blank Process",
+  "MainFile": "Main.xaml"
+}

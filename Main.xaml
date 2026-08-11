@@ -1,0 +1,764 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ue="clr-namespace:UiPath.Excel;assembly=UiPath.Excel.Activities" xmlns:ueab="clr-namespace:UiPath.Excel.Activities.Business;assembly=UiPath.Excel.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Enums</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Files.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Excel</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Files.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Enums</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities.Business</x:String>
+      <x:String>UiPath.Excel.Model</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models.FilterBuilder</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Models</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Helpers.TypeDetailsCustomization</x:String>
+      <x:String>UiPath.IntegrationService.Activities.Runtime.Activities</x:String>
+      <x:String>UiPath.Platform.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers</x:String>
+      <x:String>UiPath.Platform.Triggers.Scope</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Triggers</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.IntegrationService.Activities.Runtime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1174,621.6566666666666" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Default="True" Name="PL_Counter" />
+      <Variable x:TypeArguments="x:Int32" Default="885" Name="row_counter" />
+      <Variable x:TypeArguments="x:String" Default="C:\Users\sujal\OneDrive\subhadra engineering\TEMP_BILLS" Name="PhotoLocation" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:ForEachFileX DisplayName="For Each File in Folder" Folder="C:\Users\sujal\OneDrive\subhadra engineering\TEMP_BILLS" sap:VirtualizedContainerService.HintSize="484,509" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+      <ui:ForEachFileX.Body>
+        <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+          <ActivityAction.Argument1>
+            <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+          </ActivityAction.Argument1>
+          <ActivityAction.Argument2>
+            <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+          </ActivityAction.Argument2>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,222" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="FATEMI INDUSTRIAL SUPPLIERS" Name="Str_Company_name" />
+              <Variable x:TypeArguments="x:String" Default="0000" Name="Str_Grand_Total" />
+              <Variable x:TypeArguments="x:String" Default="11/08/2026" Name="Str_Invoice_Date" />
+              <Variable x:TypeArguments="x:String" Default="1234" Name="Str_Invoice_no" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome New Tab" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1614" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Int32" Default="0" Name="CurrentIndex" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'BUTTON composer-plus-btn'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="chatgpt.com/c/6a761177-ff8c-83e8-8960-d31f989da403" ContentHash="PvyyY3nbWES4qM9w2POBGg" DesignTimeRectangle="802, 569, 32, 32" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='mat-focus-indicator' parentid='xap-skip-link-target' tag='SPAN' /&gt;" Guid="8737a05a-9e2c-4558-a57d-75ec9b23b753" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACOSURBVFhH7dZBCoAgEIXhTlKdKKE6UWIH8GS6FGzlQSbGpUaURBa8xQ+DQ/JBi2rarqeaNenB2wEAwL8Bi5Sk1Jqd36kYMAhBxtgYz+n+asWAcZrJWhvjOd1fDQAAvg3QWpNzjrz3B20UQojxnO99fJbvSO/9D+CsV17BWQAAUB1Q/XPMVf0heSoAAABgBzkWDMsFPqlbAAAAAElFTkSuQmCC" InformativeScreenshot="5a3e71f843274df7aafe300e95b45b4a.jpg" Reference="gira0i1cQEepAnWXVaRU0g/1zuUbkyRtEu9Rz6U8J_j1w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1398, 573, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;speech-dictation-mic-button&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="034a8c16-decf-4034-9d75-5eecc4b71bab" SearchSteps="Selector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,194" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="gemini.google.com/app" ContentHash="mwfqyu1KzUesaEt_7mjIpQ" DesignTimeRectangle="850, 625, 71, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Upload files' parentid='cdk-overlay-0' tag='SPAN' /&gt;" Guid="5b59e784-9b5a-48cf-86a1-e004916fe870" InformativeScreenshot="e2b7f3b8b28655eab3933b51e785ec65.jpg" Reference="gira0i1cQEepAnWXVaRU0g/zbAFpNr3Z0O71MwcinJOUw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NClick>
+                    <If Condition="[PL_Counter]" sap:VirtualizedContainerService.HintSize="452,701" sap2010:WorkflowViewState.IdRef="If_1">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,472" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Address CUserssujal…(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="HardwareEvents" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="[string.Format(&quot;{0}[k(enter)]&quot;, PhotoLocation)]" Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="chatgpt.com/c/6a7607c3-8400-83e8-bcd9-bf7b29f46679" ContentHash="hMVO3dldQEeFd6ZyVPyI3Q" DesignTimeRectangle="145, 41, 33, 34" ElementVisibilityArgument="Interactive" Guid="84de98e8-4b5f-4ddd-9d86-61b11b51debc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAYAAADRcLDBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVFhH7ZJJTxMBGIa5ALKpaBDRaLAagstRjyaamLgFFcElLqARgVohKlFRcV8wGklMjBESDQmbpBZK9V+wlEJpKS0UC6VuWFrAePIxU2ag6VyGgyEmc3jmNPO+z/d9E5WTk8NCEyU80tLSFhRVQkKVkFAlJP4fiZLcZL7oo/n1MZppUzSTxhiCxlj63yWwdUuq7P35okjCURsTKp82xTJlWkTQKBBPoDUB29skMjQrZd/MB0USk20xTIUE4ggY4wgaEwgYE/G3JDHRugR/y1L8Lcn8NCxj3LCccUMKPz6k0F29gqJseV4kiiSE6SfbhMnjCRoTCbQK5YuZMKXyuzMPRl+D5yV4XoC7Eobug6sCnNfxtxfK8iJRJPHHWwvf2+CbAb42g68exmrBWw2eKnA/hKG7MHgLnOXgvAoDl8FRAnatLC8SRRJ4a2D0FYwI01bB52cwXCmW34PBChi8IZZfAUcp9F8AexHYzsnywtHpdAolZsufi+WPxPLb4BLKr8FAGQxcAsdFsBeDrQD6zoD1pCwvHL1er1AiVP4U3I/B/QCG7oDrJrjK58r7xXL7eeg7C9bT0HscenJleeFoNBqFEu4nYnnE3R3C5KVgF1ZfKJbnQe8J6DkKlsPQfUCWF4kyCenuwuSh1Ut3183efa782Gw55n3QtVuWF47yTQirF8qdZTPTS6sP3T0frKdmVm/JBcshMO+Hrj3QuQs6dsjywlH8T/g7isPKtWCLvPsRsGSDOQu69orlO6F9O55P22R54Wi1WmUSRQdXYX6zGl/zGnzv1+JrTmesaR3eJg2jjevxNGxgpDEDT0Mmw3WZuOs2Mly/GWvNJgqy0mV5kSiS+NeoEhKqhIQqIaFKSKgSEiGJheYvAGhFNtvmXRUAAAAASUVORK5CYII=" InformativeScreenshot="fad41edc7d2cf88d6d7f6d71f7dbed36.jpg" Reference="gira0i1cQEepAnWXVaRU0g/PW6bvrtuu06AwqTaX86e9w" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target DesignTimeRectangle="47, 42, 35, 32" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='Navigation buttons' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Navigation buttons' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Forward (Alt + Right Arrow)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Forward (Alt + Right Arrow)' /&gt;" Guid="e443d246-f608-404d-b7a9-25abe46cbdfc" SearchSteps="FuzzySelector" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <Assign sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_2">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:Boolean">[PL_Counter]</OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:Boolean">[False]</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="HardwareEvents" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="[string.Format(&quot;{0}[k(enter)]&quot;, CurrentFile.Name)]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="chatgpt.com" ContentHash="x0f4iJGoIU-BeTLt6Qy9ng" DesignTimeRectangle="201, 957, 1474, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="1feb27c3-0a90-41df-bfcb-f6592e78ca21" InformativeScreenshot="c03c2f575854431b23d60db97c2656e1.jpg" Reference="gira0i1cQEepAnWXVaRU0g/lOLYV3gPZEKLq0rdfRG_VQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </uix:NTypeInto>
+                    <Sequence DisplayName="Company Name" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'P'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.SingleLine]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="Only tell name of company who send the invoice nothing else" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="chatgpt.com" ContentHash="JL76S8GpIUG_w-HZOi6EXg" DesignTimeRectangle="806, 606, 597, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="ba2e7ece-4076-4761-9a53-2649f88a26a5" InformativeScreenshot="b07a13227237e13a8918ee32b328c5d8.jpg" Reference="gira0i1cQEepAnWXVaRU0g/lHp9vRvIoUOSroIl19A59w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ChatGPT' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_10" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MAT-ICON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app" ContentHash="d-gML4sgS0mFdbKi1fdXXw" DesignTimeRectangle="1398, 656, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="738cecd9-f826-4541-82a7-3ea23ffd3269" InformativeScreenshot="b758c71b7d1375c8a5a3f921b3a2238c.jpg" Reference="gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Only tell name of compa…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="PgohVM_GPkKt99kHjz3bJg" DesignTimeRectangle="852, 483, 20, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;chat-window-content&amp;gt;div&amp;gt;infinite-scroller&amp;gt;div&amp;gt;model-response&amp;gt;div&amp;gt;response-container&amp;gt;div&amp;gt;div&amp;gt;message-actions&amp;gt;div&amp;gt;div&amp;gt;copy-button&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' tag='MAT-ICON' /&gt;" Guid="9672bd82-8bc3-42a4-af43-ec92fc530f39" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhP5ZQ9CoNAEIVzA3sP4AVsbcU7WXgAbRVBEEHFRtRCsPanFMTSP/AoE2YhwewmS4J2KR7Ic98Ho/vmJggCXKkbbZwVFyjLMkRRBHVdM3JdFyRJYjJcYJqmsG0bNE3zAmvbFvZ9hzAMmQwXiME8zxkfVRQFeU/7DFAURdB1HQzDgL7vPwLR/wpo2zYZJ8syGMfxPBAP4Tiapl0HxMN/CFQU5Zq/fLx7+Oz7PhNCfX0Pj8CyLGEYBvA8j1TtoTiOYVkWSJLkN6CqqlBVFczzDOu6PjVNE4Fh1+n8WyCOQ/uoIAjANE3G5wKx8NgUBB8XQtd1xLcsi4FwgbiS8DvR6wrlOA7pOp3hAs/qcuAdN2uyQJV/rnIAAAAASUVORK5CYII=" InformativeScreenshot="d6195e625279475bc11d9f8122d2c441.jpg" Reference="gira0i1cQEepAnWXVaRU0g/flPMu4IpnUKvSsl2If70KQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="986, 341, 452, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='query-text-line ng-star-inserted' aaname=' Only tell name of company who send the invoice nothing else ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Only tell name of company who send the invoice nothing else' /&gt;" Guid="44350ec8-709c-4960-a93c-42c14bb4c0ba" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="OpOT9du2Ukax2K1DBtbYJg" DesignTimeRectangle="986, 341, 452, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='P' /&gt;" Guid="2eeee2b9-9e66-4342-8d08-9adc5500b275" InformativeScreenshot="1642ae6b1923b9748e8ed032231ade45.jpg" Reference="gira0i1cQEepAnWXVaRU0g/cuviO1NVSEmTcTHNYf22kA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="GetFromClipboard_2">
+                        <ui:GetFromClipboard.Result>
+                          <OutArgument x:TypeArguments="x:String">[Str_Company_name]</OutArgument>
+                        </ui:GetFromClipboard.Result>
+                      </ui:GetFromClipboard>
+                    </Sequence>
+                    <Sequence DisplayName="Invoice Number" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'P(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_17" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="4ZCXNh82NECUj6ultgnFuw" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="03945f0c-6b25-4bb3-bd4b-2a9adc591aec" InformativeScreenshot="14a24b82d01492452d95982522310c02.jpg" Reference="gira0i1cQEepAnWXVaRU0g/fHBS0egVpkS26g-QVsxWkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'P(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="SameAsCard" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="Give only invoice no nothing else" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="ffySj0aAHEK-DSyJEcXvfQ" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="025754db-1f64-4983-9b3b-90feb24a76bf" ImageBase64="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" InformativeScreenshot="2b2718501a2eb14e01bf0ef259b74160.jpg" Reference="gira0i1cQEepAnWXVaRU0g/5fZDq9HTLUmEyKPC8MUxCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1398, 947, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;speech-dictation-mic-button&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="2650b2e9-0339-47ef-b1ed-6926b530a1c8" SearchSteps="Selector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <Delay Duration="00:00:00.1000000" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_3" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MAT-ICON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app" ContentHash="d-gML4sgS0mFdbKi1fdXXw" DesignTimeRectangle="1398, 656, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="738cecd9-f826-4541-82a7-3ea23ffd3269" InformativeScreenshot="b758c71b7d1375c8a5a3f921b3a2238c.jpg" Reference="gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_4" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&quot;Give only invoice no n…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="vkuSyipF4E2lMLnQ_uSwCg" DesignTimeRectangle="852, 363, 20, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;chat-window-content&amp;gt;div&amp;gt;infinite-scroller&amp;gt;div&amp;gt;model-response&amp;gt;div&amp;gt;response-container&amp;gt;div&amp;gt;div&amp;gt;message-actions&amp;gt;div&amp;gt;div&amp;gt;copy-button&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' idx='2' tag='MAT-ICON' /&gt;" Guid="2e7e126b-5617-4fad-8a99-28def628ff70" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhP5ZQ9CoNAEIVzA3sP4AVsbcU7WXgAbRVBEEHFRtRCsPanFMTSP/AoE2YhwewmS4J2KR7Ic98Ho/vmJggCXKkbbZwVFyjLMkRRBHVdM3JdFyRJYjJcYJqmsG0bNE3zAmvbFvZ9hzAMmQwXiME8zxkfVRQFeU/7DFAURdB1HQzDgL7vPwLR/wpo2zYZJ8syGMfxPBAP4Tiapl0HxMN/CFQU5Zq/fLx7+Oz7PhNCfX0Pj8CyLGEYBvA8j1TtoTiOYVkWSJLkN6CqqlBVFczzDOu6PjVNE4Fh1+n8WyCOQ/uoIAjANE3G5wKx8NgUBB8XQtd1xLcsi4FwgbiS8DvR6wrlOA7pOp3hAs/qcuAdN2uyQJV/rnIAAAAASUVORK5CYII=" InformativeScreenshot="69e601c064afdb32d3280fe79d45cbdd.jpg" Reference="gira0i1cQEepAnWXVaRU0g/977LCEWtMkCGzOf3mzHgow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1185, 221, 253, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='user-query-content-1' tag='P' type='' class='query-text-line ng-star-inserted' aaname=' &amp;quot;Give only invoice no nothing else&amp;quot; ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='&amp;quot;Give only invoice no nothing else&amp;quot;' /&gt;" Guid="5407b620-33eb-4676-9422-200825065e77" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="X9PnVFhFrkaoh5kcjvc3GA" DesignTimeRectangle="1185, 221, 253, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='user-query-content-1' tag='P' /&gt;" Guid="efd39d85-e497-46ab-88ce-6ddd28201ce3" InformativeScreenshot="b989dab14e7e9c9da5a1ecc7ccbfb4d6.jpg" Reference="gira0i1cQEepAnWXVaRU0g/YYE32hKv_UmgFZu2OgSWcw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="GetFromClipboard_3">
+                        <ui:GetFromClipboard.Result>
+                          <OutArgument x:TypeArguments="x:String">[Str_Invoice_no]</OutArgument>
+                        </ui:GetFromClipboard.Result>
+                      </ui:GetFromClipboard>
+                    </Sequence>
+                    <Sequence DisplayName="Invoice Date" sap:VirtualizedContainerService.HintSize="452,57" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'P(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="4ZCXNh82NECUj6ultgnFuw" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="03945f0c-6b25-4bb3-bd4b-2a9adc591aec" InformativeScreenshot="14a24b82d01492452d95982522310c02.jpg" Reference="gira0i1cQEepAnWXVaRU0g/fHBS0egVpkS26g-QVsxWkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'P(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_11" InteractionMode="SameAsCard" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="Give only invoice date in dd/mm/yyyy format nothing else" Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="ffySj0aAHEK-DSyJEcXvfQ" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="025754db-1f64-4983-9b3b-90feb24a76bf" ImageBase64="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" InformativeScreenshot="2b2718501a2eb14e01bf0ef259b74160.jpg" Reference="gira0i1cQEepAnWXVaRU0g/5fZDq9HTLUmEyKPC8MUxCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1398, 947, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;speech-dictation-mic-button&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="2650b2e9-0339-47ef-b1ed-6926b530a1c8" SearchSteps="Selector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                      </uix:NTypeInto>
+                      <Delay Duration="00:00:00.1000000" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_5" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MAT-ICON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app" ContentHash="d-gML4sgS0mFdbKi1fdXXw" DesignTimeRectangle="1398, 656, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="738cecd9-f826-4541-82a7-3ea23ffd3269" InformativeScreenshot="b758c71b7d1375c8a5a3f921b3a2238c.jpg" Reference="gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_6" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&quot;Give only invoice date…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_15" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="HNKUKtW3B06malhG4xz0nw" DesignTimeRectangle="852, 363, 20, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;chat-window-content&amp;gt;div&amp;gt;infinite-scroller&amp;gt;div&amp;gt;model-response&amp;gt;div&amp;gt;response-container&amp;gt;div&amp;gt;div&amp;gt;message-actions&amp;gt;div&amp;gt;div&amp;gt;copy-button&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' idx='3' tag='MAT-ICON' /&gt;" Guid="f5b7c264-f4c3-4cff-8561-bc45ed12fa28" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhP5ZQ9CoNAEIVzA3sP4AVsbcU7WXgAbRVBEEHFRtRCsPanFMTSP/AoE2YhwewmS4J2KR7Ic98Ho/vmJggCXKkbbZwVFyjLMkRRBHVdM3JdFyRJYjJcYJqmsG0bNE3zAmvbFvZ9hzAMmQwXiME8zxkfVRQFeU/7DFAURdB1HQzDgL7vPwLR/wpo2zYZJ8syGMfxPBAP4Tiapl0HxMN/CFQU5Zq/fLx7+Oz7PhNCfX0Pj8CyLGEYBvA8j1TtoTiOYVkWSJLkN6CqqlBVFczzDOu6PjVNE4Fh1+n8WyCOQ/uoIAjANE3G5wKx8NgUBB8XQtd1xLcsi4FwgbiS8DvR6wrlOA7pOp3hAs/qcuAdN2uyQJV/rnIAAAAASUVORK5CYII=" InformativeScreenshot="fd4e50558fa71212a8b711b519551a34.jpg" Reference="gira0i1cQEepAnWXVaRU0g/y2uXzLMHaEGgqafoiLIxow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1170, 221, 268, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='user-query-content-2' tag='P' type='' class='query-text-line ng-star-inserted' aaname=' &amp;quot;Give only invoice date nothing else&amp;quot; ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='&amp;quot;Give only invoice date nothing else&amp;quot;' /&gt;" Guid="e220d8c5-0b23-459a-a246-c1505a5e7b2d" SearchSteps="FuzzySelector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                        <uix:NClick.VerifyOptions>
+                          <uix:VerifyExecutionOptions Mode="Appears">
+                            <uix:VerifyExecutionOptions.Retry>
+                              <InArgument x:TypeArguments="x:Boolean" />
+                            </uix:VerifyExecutionOptions.Retry>
+                            <uix:VerifyExecutionOptions.Target>
+                              <uix:TargetAnchorable BrowserURL="gemini.google.com/app/a0e8ae22b4cf4c04" ContentHash="dlU7URApVkawUIsHJdwP8A" DesignTimeRectangle="1170, 221, 268, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='user-query-content-2' tag='P' /&gt;" Guid="94958ddd-75d7-4233-b192-9e5927164b58" InformativeScreenshot="453d894ae7c006e5978af780b72842ac.jpg" Reference="gira0i1cQEepAnWXVaRU0g/c54WYOsnsUip8bhYa_Ix9A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:VerifyExecutionOptions.Target>
+                            <uix:VerifyExecutionOptions.Timeout>
+                              <InArgument x:TypeArguments="x:Double" />
+                            </uix:VerifyExecutionOptions.Timeout>
+                          </uix:VerifyExecutionOptions>
+                        </uix:NClick.VerifyOptions>
+                      </uix:NClick>
+                      <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="GetFromClipboard_4">
+                        <ui:GetFromClipboard.Result>
+                          <OutArgument x:TypeArguments="x:String">[Str_Invoice_Date]</OutArgument>
+                        </ui:GetFromClipboard.Result>
+                      </ui:GetFromClipboard>
+                    </Sequence>
+                    <Sequence DisplayName="Grand Total" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'P(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_19" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="4ZCXNh82NECUj6ultgnFuw" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="03945f0c-6b25-4bb3-bd4b-2a9adc591aec" InformativeScreenshot="14a24b82d01492452d95982522310c02.jpg" Reference="gira0i1cQEepAnWXVaRU0g/fHBS0egVpkS26g-QVsxWkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'P(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_12" InteractionMode="SameAsCard" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Text="Read the invoice image and output ONLY the grand total as a plain integer with no symbols, commas, words, or explanation — output nothing else, not even a label." Version="V5">
+                        <uix:NTypeInto.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/f2b587d558ff3d78" ContentHash="ffySj0aAHEK-DSyJEcXvfQ" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="025754db-1f64-4983-9b3b-90feb24a76bf" ImageBase64="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" InformativeScreenshot="2b2718501a2eb14e01bf0ef259b74160.jpg" Reference="gira0i1cQEepAnWXVaRU0g/5fZDq9HTLUmEyKPC8MUxCQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector, Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="1398, 947, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;speech-dictation-mic-button&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="2650b2e9-0339-47ef-b1ed-6926b530a1c8" SearchSteps="Selector" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NTypeInto.Target>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </uix:NTypeInto>
+                      <Delay Duration="00:00:00.1000000" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'MAT-ICON'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app" ContentHash="d-gML4sgS0mFdbKi1fdXXw" DesignTimeRectangle="1398, 656, 24, 24" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;chat-app-orchestrator&amp;gt;chat-app&amp;gt;main&amp;gt;side-navigation-v2&amp;gt;bard-sidenav-container&amp;gt;bard-sidenav-content&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;chat-window&amp;gt;div&amp;gt;input-container&amp;gt;fieldset&amp;gt;input-area-v2&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;gem-icon-button&amp;gt;button&amp;gt;gem-icon&amp;gt;mat-icon' parentid='xap-skip-link-target' tag='MAT-ICON' /&gt;" Guid="738cecd9-f826-4541-82a7-3ea23ffd3269" InformativeScreenshot="b758c71b7d1375c8a5a3f921b3a2238c.jpg" Reference="gira0i1cQEepAnWXVaRU0g/Qgh8J4IHZUa9oehcH3Puug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="416,123" sap2010:WorkflowViewState.IdRef="Delay_8" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&quot;Give only grand total …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_16" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c84e37a2-32eb-4620-b84c-17259f8bc37f" Version="V5">
+                        <uix:NClick.Target>
+                          <uix:TargetAnchorable BrowserURL="gemini.google.com/app/ef93935941b0209e" ContentHash="dKH_9hQ7ZUe_nnVnFyuOeQ" DesignTimeRectangle="852, 411, 20, 20" ElementType="Icon" ElementVisibilityArgument="Interactive" Guid="85505a21-6ce7-4962-8435-365b4ea18fd0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAERSURBVDhP5ZQ9CoNAEIVzA3sP4AVsbcU7WXgAbRVBEEHFRtRCsPanFMTSP/AoE2YhwewmS4J2KR7Ic98Ho/vmJggCXKkbbZwVFyjLMkRRBHVdM3JdFyRJYjJcYJqmsG0bNE3zAmvbFvZ9hzAMmQwXiME8zxkfVRQFeU/7DFAURdB1HQzDgL7vPwLR/wpo2zYZJ8syGMfxPBAP4Tiapl0HxMN/CFQU5Zq/fLx7+Oz7PhNCfX0Pj8CyLGEYBvA8j1TtoTiOYVkWSJLkN6CqqlBVFczzDOu6PjVNE4Fh1+n8WyCOQ/uoIAjANE3G5wKx8NgUBB8XQtd1xLcsi4FwgbiS8DvR6wrlOA7pOp3hAs/qcuAdN2uyQJV/rnIAAAAASUVORK5CYII=" InformativeScreenshot="0112aa8f1bcebb45f6f9654ea6a357eb.jpg" Reference="gira0i1cQEepAnWXVaRU0g/mdT_Qsae3ESx4jmqJ67H1w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Image" Version="V6" WaitForReadyArgument="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                <uix:Target DesignTimeRectangle="986, 221, 452, 72" ElementType="Text" Guid="7e76d32c-8b68-4c56-ac42-89aeeabf8ae1" ImageBase64="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" SearchSteps="Image" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
+                        </uix:NClick.Target>
+                      </uix:NClick>
+                      <ui:GetFromClipboard TimeoutMS="{x:Null}" DisplayName="Get From Clipboard" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="GetFromClipboard_5">
+                        <ui:GetFromClipboard.Result>
+                          <OutArgument x:TypeArguments="x:String">[Str_Grand_Total]</OutArgument>
+                        </ui:GetFromClipboard.Result>
+                      </ui:GetFromClipboard>
+                    </Sequence>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="-IruLhb8CkeQniu1BdCRfg" IconBase64="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" InformativeScreenshot="efe9b45b1e9be9f985dd0cc95dfd3d25.jpg" Reference="gira0i1cQEepAnWXVaRU0g/qxJCkhII9Eu9Vxk9rsmYPg" Selector="&lt;html app='chrome.exe' title='New Tab' /&gt;" Url="https://gemini.google.com/" Version="V3">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+            <ueab:ExcelProcessScopeX DisplayAlerts="{x:Null}" ExistingProcessAction="{x:Null}" FileConflictResolution="{x:Null}" LaunchMethod="{x:Null}" LaunchTimeout="{x:Null}" MacroSettings="{x:Null}" ProcessMode="{x:Null}" ShowExcelWindow="{x:Null}" DisplayName="Excel Process Scope" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="ExcelProcessScopeX_1">
+              <ueab:ExcelProcessScopeX.Body>
+                <ActivityAction x:TypeArguments="ui:IExcelProcess">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="ui:IExcelProcess" Name="ExcelProcessScopeTag" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1394" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ueab:ExcelApplicationCard CreateNewFile="False" DisplayName="Use Excel File" sap:VirtualizedContainerService.HintSize="452,1334" sap2010:WorkflowViewState.IdRef="ExcelApplicationCard_1" KeepExcelFileOpen="True" ResizeWindow="None" WorkbookPath="C:\Users\sujal\OneDrive\subhadra engineering\DATA_BANK-20240203T065953Z-001\DATA_BANK\SUBHADRA ENG P.xlsx">
+                      <ueab:ExcelApplicationCard.Body>
+                        <ActivityAction x:TypeArguments="ue:IWorkbookQuickHandle">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="ue:IWorkbookQuickHandle" Name="Excel" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1114" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;B&quot; + row_counter.ToString())]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="WriteCellX_2" Value="[Str_Company_name]" />
+                            <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;C&quot;+ row_counter.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="WriteCellX_5" Value="[Str_Invoice_no]" />
+                            <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;D&quot;+ row_counter.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="WriteCellX_6" Value="[Str_Invoice_Date]" />
+                            <ueab:WriteCellX AutoIncrementRow="True" Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;E&quot;+ row_counter.ToString)]" DisplayName="Write Cell" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="WriteCellX_7" Value="[Str_Grand_Total]" />
+                            <Assign sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_1">
+                              <Assign.To>
+                                <OutArgument x:TypeArguments="x:Int32">[row_counter]</OutArgument>
+                              </Assign.To>
+                              <Assign.Value>
+                                <InArgument x:TypeArguments="x:Int32">[row_counter+1]</InArgument>
+                              </Assign.Value>
+                            </Assign>
+                          </Sequence>
+                        </ActivityAction>
+                      </ueab:ExcelApplicationCard.Body>
+                    </ueab:ExcelApplicationCard>
+                  </Sequence>
+                </ActivityAction>
+              </ueab:ExcelProcessScopeX.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ueab:ExcelProcessScopeX>
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Gimbooks" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,2762" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" OpenMode="[UiPath.UIAutomationNext.Enums.NAppOpenMode.Always]" ScopeGuid="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,2590" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Int32" Default="0" Name="CurrentIndex" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Upload Bill'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_23" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase" ContentHash="Q1Kcv9FOgUKWkLCApwd68A" DesignTimeRectangle="1772, 303, 66, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Upload Bill ' class='v-btn__content' parentid='__nuxt' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Upload Bill' /&gt;" Guid="a7a4136b-7e2a-4799-8046-c4b9b582e3b9" InformativeScreenshot="f920a9719c1051e34f2d93a4ddc0ee10.jpg" Reference="gira0i1cQEepAnWXVaRU0g/iytBCSRNxUOB2YvxZB0vpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1754, 293, 102, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Upload Bill ' tag='BUTTON' type='button' class='v-btn v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-flat text-none font-weight-bold p-create-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Upload Bill' /&gt;" Guid="ee10fd97-d733-4044-916e-646c72b0279f" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Purchase Invoice Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_16" InteractionMode="SameAsCard" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Text="[Str_Invoice_no]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="e0vCuDxJ4U6XjEu3kbMo8Q" DesignTimeRectangle="382, 343, 183, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='LABEL' /&gt;" Guid="625a348d-19e2-4ef9-8e4d-3e5979b4d8ab" InformativeScreenshot="f65e5b8fe25fa57a699fbbe2236b4228.jpg" Reference="gira0i1cQEepAnWXVaRU0g/x4vmMmVx10-kn9u5h_wKJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Purchase Date'" EmptyFieldMode="[UiPath.UIAutomationNext.Enums.NEmptyFieldMode.MultiLine]" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_17" InteractionMode="SameAsCard" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Text="[Str_Invoice_Date]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="zNJIhXYxX0eUevj5dXKVyw" DesignTimeRectangle="1125, 331, 710, 50" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-v-0-116' tag='INPUT' type='date' class='v-field__input' aaname='Purchase Date' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="07d8e332-c041-4f37-958a-9aee4bffcca3" InformativeScreenshot="d46b03499f6231c864681b21264711fb.jpg" Reference="gira0i1cQEepAnWXVaRU0g/BC30IRPgO02JtkBRLy5nlw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1141, 322, 77, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Purchase Date' type='' tag='LABEL' class='v-label v-field-label v-field-label--floating' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Purchase Date' /&gt;" Guid="acf702d9-10ef-477b-94f7-86f2a4fb997a" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_20" InteractionMode="DebuggerApi" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Text="[Str_Grand_Total]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="ZAEjXA5y4k66BSLBPK7BlQ" DesignTimeRectangle="366, 405, 711, 48" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='input-v-1-322' tag='INPUT' type='number' class='v-field__input' placeholder='Enter Amount' aaname='Amount' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="95c9fbe3-01c6-467e-ae66-174583f90751" InformativeScreenshot="44afde901a795bfa6bfd64208dfc9e66.jpg" Reference="gira0i1cQEepAnWXVaRU0g/V4DID0ImaEi_KjLe7G6luw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="382, 396, 42, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Amount' type='' tag='LABEL' class='v-label v-field-label v-field-label--floating' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Amount' /&gt;" Guid="9ec5b6d5-8f91-4a37-b5b4-6a3979120029" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select Seller'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="k-mYYKDPLkKhujNL7VkrbQ" DesignTimeRectangle="849, 493, 72, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Select Seller' class='v-btn__content' parentid='__nuxt' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Select Seller' /&gt;" Guid="c675d825-13ca-431d-b8ef-a39eaf0a4c59" InformativeScreenshot="c994aa4e483b0a8ce16d853ba5150a95.jpg" Reference="gira0i1cQEepAnWXVaRU0g/MlV66PCLAEmbdYAePIqpjA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="835, 484, 100, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Select Seller' tag='BUTTON' type='button' class='v-btn v-btn--elevated v-theme--light bg-primary v-btn--density-default v-btn--size-small v-btn--variant-elevated mr-3 ls-005rem fs-13px' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Select Seller' /&gt;" Guid="ac96b8b7-a2f7-47d0-a535-7796fefa4fda" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="CXXLsfzvtUidm7XB21mj5w" DesignTimeRectangle="568, 319, 800, 56" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='2' tag='DIV' /&gt;" Guid="758b015d-b92a-4ccc-93e5-052544e18ddf" InformativeScreenshot="bcb8c220e34449a733cfd4ca89b93a16.jpg" Reference="gira0i1cQEepAnWXVaRU0g/7MjcUmmh2k2D4Y5EpVRw7w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT input-v-1-456'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_18" InteractionMode="SameAsCard" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Text="[Str_Company_name]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="0Sb00UNiTk2rCT50BTXvHQ" DesignTimeRectangle="580, 411, 24, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;i' tag='I' /&gt;" Guid="8f1a86f7-8ba2-4cee-8be4-40ff8d29cb15" InformativeScreenshot="a6d6b88f9f6de2ad51dc7f91c76a2c98.jpg" Reference="gira0i1cQEepAnWXVaRU0g/jdPUfa6AgEiBwF2bcTI0IQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NTypeInto.Target>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Fatemi Industrial Suppl…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_25" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="abwUKg6EgU-Z1S7VgxmRxA" DesignTimeRectangle="588, 475, 760, 40" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' idx='3' tag='DIV' /&gt;" Guid="7ac93f7f-0d25-408a-a9cd-de365910e4af" InformativeScreenshot="4cc318ac1b4364d4f5f84b6ee092bb8d.jpg" Reference="gira0i1cQEepAnWXVaRU0g/1yM06M7EzEiIMBLjouuHfQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,194" sap2010:WorkflowViewState.IdRef="NClick_26" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="HDcqOuK4k02S5WuLUNDPtw" DesignTimeRectangle="1800, 492, 20, 20" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;span&amp;gt;i' parentid='__nuxt' tag='I' /&gt;" Guid="54725fa1-b2cb-42d7-aabc-0f4071857805" InformativeScreenshot="b917c95d65521a145b2bf4897a687dea.jpg" Reference="gira0i1cQEepAnWXVaRU0g/FNORjvHlakGoq--yfbGKeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Edit'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,318" sap2010:WorkflowViewState.IdRef="NTypeInto_19" InteractionMode="SameAsCard" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Text="[string.Format(&quot;{0}[k(enter)]&quot;, CurrentFile.Name)]" Version="V5">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="chatgpt.com" ContentHash="x0f4iJGoIU-BeTLt6Qy9ng" DesignTimeRectangle="201, 957, 1474, 15" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="1feb27c3-0a90-41df-bfcb-f6592e78ca21" InformativeScreenshot="c03c2f575854431b23d60db97c2656e1.jpg" Reference="gira0i1cQEepAnWXVaRU0g/lOLYV3gPZEKLq0rdfRG_VQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.VerifyOptions>
+                        <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                          <uix:VerifyExecutionTypeIntoOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="xAFC8_JONEWG4rejrtuVbQ" DesignTimeRectangle="1130, 546, 150, 150" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='ub-thumb-img' tag='IMG' /&gt;" Guid="221067b5-05e5-43d1-a182-4b79f032aa60" InformativeScreenshot="f88b9c470896b3a1b15a7e6df1f86e7d.jpg" Reference="gira0i1cQEepAnWXVaRU0g/_zadY17E8USvxzplNCL63Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                          </uix:VerifyExecutionTypeIntoOptions.Target>
+                          <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        </uix:VerifyExecutionTypeIntoOptions>
+                      </uix:NTypeInto.VerifyOptions>
+                    </uix:NTypeInto>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,266" sap2010:WorkflowViewState.IdRef="NClick_27" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="9b5ca571-7f2b-439b-b649-0dfd23ba9b94" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase/uploadbill" ContentHash="vuA7pQV2tkWT6ZsUtdAvVw" DesignTimeRectangle="1754, 731, 110, 40" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Save' type='button' tag='BUTTON' class='v-btn v-theme--light v-btn--density-default v-btn--size-default v-btn--variant-flat text-none ub-save-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Save' /&gt;" Guid="1ad87734-0d89-443b-94c8-48e0ecba3f96" InformativeScreenshot="84b0c567b08a3204e543d4731574cf9b.jpg" Reference="gira0i1cQEepAnWXVaRU0g/7d6RO868-Ui59qg7ZMgjYQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target DesignTimeRectangle="1794, 740, 30, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Save' class='v-btn__content' parentid='__nuxt' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Save' /&gt;" Guid="3bd255ac-e0a1-47cc-915c-29bad96501c8" SearchSteps="FuzzySelector" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="dashboard.gimbooks.com/purchase" ContentHash="Q1Kcv9FOgUKWkLCApwd68A" DesignTimeRectangle="1772, 303, 66, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname=' Upload Bill ' class='v-btn__content' parentid='__nuxt' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' check:innerText='Upload Bill' /&gt;" Guid="a7a4136b-7e2a-4799-8046-c4b9b582e3b9" InformativeScreenshot="f920a9719c1051e34f2d93a4ddc0ee10.jpg" Reference="gira0i1cQEepAnWXVaRU0g/iytBCSRNxUOB2YvxZB0vpQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target DesignTimeRectangle="1754, 293, 102, 40" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname=' Upload Bill ' tag='BUTTON' type='button' class='v-btn v-theme--light bg-primary v-btn--density-default v-btn--size-default v-btn--variant-flat text-none font-weight-bold p-create-btn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Upload Bill' /&gt;" Guid="ee10fd97-d733-4044-916e-646c72b0279f" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_9" />
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="19dKPYeyVEmOYOMZKjXGZw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEgAACxIB0t1+/AAABBxJREFUWEe1l09oIlccx6dQ6KXQPfSWw3roqafCXrKFjePfccoubFsWSnvpafFS2NIeSg9F2HZ3u0tjixBZSmPa3fwxf5rExDU16vhv15g1GWOamFijxvFf1GggpXvYwitvUiX+HMcx2/7gAw988/t+eDPOe0MQEutj8q1zc/cGPmStWmPUqg3F57UH23Pa57EZ7d+JBYqLz2u9qw/U9xcGle9eI998FV5/5loYVPbFpjWm1BJVr6+8g6SQddEll1lpMd/ol8F+koskyZdXftHcKvvoIxgglX0n9Tw0or5JEMRLsL9oWQykLDKm3oENzwpzX5UcN0hcjSKjk+U9dAY2eVFKfjoTn9WJS2BLzk3n4MX/FXmG5sz6DiuBn/LwQ00aXoSpRT7qndX32/pgopNaFj9fMJ9grVoDnNygWmJRtlZHu5UyD1ero8rRn6IUsmGUZ6i2XphFI3mvJfy2vl+WcghPbghsV0rIm0vxsAd5VDk6FqWQXUHxRaWgRIGhjwf1yr6mgNustMBJUKBYrSOuWGlSqNTaQoUEMDlG29ZzZ4H6ng+/Tl54fd9JHcMJUKBUraNcqdqk2IOAkMSenarj545wmOTXYCAEC5xuXtzwomLM18rWE1GBk9vRKmEzKmkiNKISXf6GQJIrobXt5AnxPWH+/R3PFRKAK7E2rjERCTu1DgMhWMD5OII2E+mOzDgDaDOR4ceu0HpHgdMS7ISGJZJ2ah8GQrCA3RfmG3fiR6sduUIsP8ZzxQQw+HbsPaLSRM6lq8JACBbwrERRIF1DU/EKjyd12HLPncE1xKRryPFHFXlXY10FMLuLmjRRYKQLPNmvIdtuFXlS7f+AhoBrryZZIGJVpIn0kq7rxtMQgKFQoDGWKhB6SKaJzV+1ERgI+b8Egj+TASI6pfkBBkKwwKI3jB6zWx2xzCyhyWAMTQRiyBF4Kklg+u4lCzH1DfkBDIRggd+CEX4VOjFqc6NZ/zp64I4gJrwhScBmHFDy23C38x58EwpRLh6g8sbGCZlsV4HwqKJ+XX3hNX4/2JqjzDC0ZwGOQ+XtrROyua4CU3cuDTd3Q/OnF/tybt0zGNyLAERM4OmE4pleB05Gtu9IIww+LVA6PEL5g6oIh80x3rrFBOymAUNLOC58TIpOagT3hYL/CtpZutwzMBjzyCT/XfBIhsuoJ2U5D81BAUzeS7U16xX85rtxtcOhtFHsOCnLM8LH8heRCI8p0rO3u4Q3avRr5fnlIVUCCpxVwjkkD3323tvnYU7XCg6rvuKW6b+gREGiBDutqM/clX8J+/ZUX1ztlzlMihHO1bppia2E30LWl4fImxYDeQ72O3N9Qr/xysQt8vK6VXUnMq5hknYqsTqmOvQNk1X/MJnx/SSfd5rl3w593q/u5fP8H0QnCrOVrUw8AAAAAElFTkSuQmCC" InformativeScreenshot="dd5d5368947b0e799a36eab1a3a50937.jpg" Reference="gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w" Selector="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" Url="https://dashboard.gimbooks.com/purchase" Version="V3">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NApplicationCard>
+          </Sequence>
+        </ActivityAction>
+      </ui:ForEachFileX.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:ForEachFileX>
+  </Sequence>
+</Activity>

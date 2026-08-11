@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Click 'Select Seller'",
+  "Type": "Element",
+  "Id": "7MjcUmmh2k2D4Y5EpVRw7w",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/7MjcUmmh2k2D4Y5EpVRw7w",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w",
+  "Created": "2026-08-10T19:18:22.7874981Z",
+  "Updated": "2026-08-10T19:18:22.7874981Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Give only invoice date…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "c54WYOsnsUip8bhYa_Ix9A",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/c54WYOsnsUip8bhYa_Ix9A",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/IZA3kxN36ECUlUvOZ1D9OQ",
+  "Created": "2026-08-08T02:30:32.0169092Z",
+  "Updated": "2026-08-08T02:30:32.0169092Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

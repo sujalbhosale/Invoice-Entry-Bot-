@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Gimbooks",
+  "Type": "App",
+  "Id": "7ik2w2EIek2DavM9ZKszFw",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/7ik2w2EIek2DavM9ZKszFw",
+  "Created": "2026-08-10T15:05:53.2974337Z",
+  "Updated": "2026-08-10T15:05:53.2974337Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

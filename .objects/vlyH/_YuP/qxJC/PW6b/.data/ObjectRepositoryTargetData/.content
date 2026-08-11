@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="hMVO3dldQEeFd6ZyVPyI3Q" Reference="gira0i1cQEepAnWXVaRU0g/PW6bvrtuu06AwqTaX86e9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="chatgpt.com/c/6a7607c3-8400-83e8-bcd9-bf7b29f46679" DesignTimeRectangle="145, 41, 33, 34" ElementVisibilityArgument="Interactive" Guid="84de98e8-4b5f-4ddd-9d86-61b11b51debc" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACEAAAAiCAYAAADRcLDBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKXSURBVFhH7ZJJTxMBGIa5ALKpaBDRaLAagstRjyaamLgFFcElLqARgVohKlFRcV8wGklMjBESDQmbpBZK9V+wlEJpKS0UC6VuWFrAePIxU2ag6VyGgyEmc3jmNPO+z/d9E5WTk8NCEyU80tLSFhRVQkKVkFAlJP4fiZLcZL7oo/n1MZppUzSTxhiCxlj63yWwdUuq7P35okjCURsTKp82xTJlWkTQKBBPoDUB29skMjQrZd/MB0USk20xTIUE4ggY4wgaEwgYE/G3JDHRugR/y1L8Lcn8NCxj3LCccUMKPz6k0F29gqJseV4kiiSE6SfbhMnjCRoTCbQK5YuZMKXyuzMPRl+D5yV4XoC7Eobug6sCnNfxtxfK8iJRJPHHWwvf2+CbAb42g68exmrBWw2eKnA/hKG7MHgLnOXgvAoDl8FRAnatLC8SRRJ4a2D0FYwI01bB52cwXCmW34PBChi8IZZfAUcp9F8AexHYzsnywtHpdAolZsufi+WPxPLb4BLKr8FAGQxcAsdFsBeDrQD6zoD1pCwvHL1er1AiVP4U3I/B/QCG7oDrJrjK58r7xXL7eeg7C9bT0HscenJleeFoNBqFEu4nYnnE3R3C5KVgF1ZfKJbnQe8J6DkKlsPQfUCWF4kyCenuwuSh1Ut3183efa782Gw55n3QtVuWF47yTQirF8qdZTPTS6sP3T0frKdmVm/JBcshMO+Hrj3QuQs6dsjywlH8T/g7isPKtWCLvPsRsGSDOQu69orlO6F9O55P22R54Wi1WmUSRQdXYX6zGl/zGnzv1+JrTmesaR3eJg2jjevxNGxgpDEDT0Mmw3WZuOs2Mly/GWvNJgqy0mV5kSiS+NeoEhKqhIQqIaFKSKgSEiGJheYvAGhFNtvmXRUAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="47, 42, 35, 32" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='Navigation buttons' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Navigation buttons' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Forward (Alt + Right Arrow)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Forward (Alt + Right Arrow)' /&gt;" Guid="e443d246-f608-404d-b7a9-25abe46cbdfc" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fad41edc7d2cf88d6d7f6d71f7dbed36.jpg" xmlns="">0Kf_PwbnXikm56Twe4j_1gg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

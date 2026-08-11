@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Give only invoice no n…",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "977LCEWtMkCGzOf3mzHgow",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/977LCEWtMkCGzOf3mzHgow",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/qxJCkhII9Eu9Vxk9rsmYPg",
+  "Created": "2026-08-08T02:28:11.8979668Z",
+  "Updated": "2026-08-08T02:28:11.8979668Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

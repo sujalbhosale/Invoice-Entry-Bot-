@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Type Into 'Edit'",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "_zadY17E8USvxzplNCL63Q",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/_zadY17E8USvxzplNCL63Q",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w",
+  "Created": "2026-08-11T06:23:24.1725775Z",
+  "Updated": "2026-08-11T06:23:24.1725775Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

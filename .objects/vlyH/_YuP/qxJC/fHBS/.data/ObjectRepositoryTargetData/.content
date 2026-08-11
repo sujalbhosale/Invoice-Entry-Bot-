@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4ZCXNh82NECUj6ultgnFuw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="gemini.google.com/app/f2b587d558ff3d78" DesignTimeRectangle="842, 947, 418, 24" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='xap-skip-link-target' tag='P' /&gt;" Guid="03945f0c-6b25-4bb3-bd4b-2a9adc591aec" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Invoice Company Name Only - Google Gemini' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="14a24b82d01492452d95982522310c02.jpg" xmlns="">0dwn6tozW-k2OoNJpf3n5vg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

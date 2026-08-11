@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Click 'Give only invoice no n…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YYE32hKv_UmgFZu2OgSWcw",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/YYE32hKv_UmgFZu2OgSWcw",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/IZA3kxN36ECUlUvOZ1D9OQ",
+  "Created": "2026-08-08T02:29:00.2863481Z",
+  "Updated": "2026-08-08T02:29:00.2863481Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

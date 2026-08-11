@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="19dKPYeyVEmOYOMZKjXGZw" Reference="gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="obFvznbYzkWiHLeE6ySEAg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAALEgAACxIB0t1+/AAABBxJREFUWEe1l09oIlccx6dQ6KXQPfSWw3roqafCXrKFjePfccoubFsWSnvpafFS2NIeSg9F2HZ3u0tjixBZSmPa3fwxf5rExDU16vhv15g1GWOamFijxvFf1GggpXvYwitvUiX+HMcx2/7gAw988/t+eDPOe0MQEutj8q1zc/cGPmStWmPUqg3F57UH23Pa57EZ7d+JBYqLz2u9qw/U9xcGle9eI998FV5/5loYVPbFpjWm1BJVr6+8g6SQddEll1lpMd/ol8F+koskyZdXftHcKvvoIxgglX0n9Tw0or5JEMRLsL9oWQykLDKm3oENzwpzX5UcN0hcjSKjk+U9dAY2eVFKfjoTn9WJS2BLzk3n4MX/FXmG5sz6DiuBn/LwQ00aXoSpRT7qndX32/pgopNaFj9fMJ9grVoDnNygWmJRtlZHu5UyD1ero8rRn6IUsmGUZ6i2XphFI3mvJfy2vl+WcghPbghsV0rIm0vxsAd5VDk6FqWQXUHxRaWgRIGhjwf1yr6mgNustMBJUKBYrSOuWGlSqNTaQoUEMDlG29ZzZ4H6ng+/Tl54fd9JHcMJUKBUraNcqdqk2IOAkMSenarj545wmOTXYCAEC5xuXtzwomLM18rWE1GBk9vRKmEzKmkiNKISXf6GQJIrobXt5AnxPWH+/R3PFRKAK7E2rjERCTu1DgMhWMD5OII2E+mOzDgDaDOR4ceu0HpHgdMS7ISGJZJ2ah8GQrCA3RfmG3fiR6sduUIsP8ZzxQQw+HbsPaLSRM6lq8JACBbwrERRIF1DU/EKjyd12HLPncE1xKRryPFHFXlXY10FMLuLmjRRYKQLPNmvIdtuFXlS7f+AhoBrryZZIGJVpIn0kq7rxtMQgKFQoDGWKhB6SKaJzV+1ERgI+b8Egj+TASI6pfkBBkKwwKI3jB6zWx2xzCyhyWAMTQRiyBF4Kklg+u4lCzH1DfkBDIRggd+CEX4VOjFqc6NZ/zp64I4gJrwhScBmHFDy23C38x58EwpRLh6g8sbGCZlsV4HwqKJ+XX3hNX4/2JqjzDC0ZwGOQ+XtrROyua4CU3cuDTd3Q/OnF/tybt0zGNyLAERM4OmE4pleB05Gtu9IIww+LVA6PEL5g6oIh80x3rrFBOymAUNLOC58TIpOagT3hYL/CtpZutwzMBjzyCT/XfBIhsuoJ2U5D81BAUzeS7U16xX85rtxtcOhtFHsOCnLM8LH8heRCI8p0rO3u4Q3avRr5fnlIVUCCpxVwjkkD3323tvnYU7XCg6rvuKW6b+gREGiBDutqM/clX8J+/ZUX1ztlzlMihHO1bppia2E30LWl4fImxYDeQ72O3N9Qr/xysQt8vK6VXUnMq5hknYqsTqmOvQNk1X/MJnx/SSfd5rl3w593q/u5fP8H0QnCrOVrUw8AAAAAElFTkSuQmCC" Reference="gira0i1cQEepAnWXVaRU0g/hG_OCqdWPkiw-Qx_2aW33w" Selector="&lt;html app='chrome.exe' title='Gimbooks' /&gt;" Url="https://dashboard.gimbooks.com/purchase" Version="V3">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="dd5d5368947b0e799a36eab1a3a50937.jpg" xmlns="">0mHA1SDY53Ue8NupniQtvXw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

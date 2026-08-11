@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Only tell name of compa…",
+  "Type": "Element",
+  "Id": "flPMu4IpnUKvSsl2If70KQ",
+  "Reference": "gira0i1cQEepAnWXVaRU0g/flPMu4IpnUKvSsl2If70KQ",
+  "ParentRef": "gira0i1cQEepAnWXVaRU0g/qxJCkhII9Eu9Vxk9rsmYPg",
+  "Created": "2026-08-07T16:48:25.7656364Z",
+  "Updated": "2026-08-07T16:48:25.7656364Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=26.10.0.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=26.7.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
